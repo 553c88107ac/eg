@@ -1,0 +1,40 @@
+{
+	"groups": [
+		{
+			"keys": "nico_jpg,kyo_json,kyo_png,music_click_wav,music_bg_mp3,music_wave_mp3",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/nico.jpg",
+			"type": "image",
+			"name": "nico_jpg"
+		},
+		{
+			"url": "mc/kyo.json",
+			"type": "json",
+			"name": "kyo_json"
+		},
+		{
+			"url": "mc/kyo.png",
+			"type": "image",
+			"name": "kyo_png"
+		},
+		{
+			"url": "sound/music_click.wav",
+			"type": "sound",
+			"name": "music_click_wav"
+		},
+		{
+			"url": "sound/music_bg.mp3",
+			"type": "sound",
+			"name": "music_bg_mp3"
+		},
+		{
+			"url": "sound/music_wave.mp3",
+			"type": "sound",
+			"name": "music_wave_mp3"
+		}
+	]
+}
