@@ -91,7 +91,7 @@ const config: ResourceManagerConfig = {
                         html: {
                             templateFilePath: "template/web/index.html"
                         },
-                        open: false
+                        open: true
                     }),
                 ]
             }
