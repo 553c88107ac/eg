@@ -40,7 +40,7 @@ class GameView extends egret.DisplayObjectContainer {
         
         
         // init video
-        const myVideo = Qwan.media.initVideo(this, [75, 900, 600,300], 'resource/sound/vdo.mp4', 'resource/assets/nico.jpg')
+        const myVideo = Qwan.media.initVideo(this, [75, 900, 600,300], 'resource/sound/vdo.mp4', 'resource/img/nico.jpg')
         const btnPlayVideo = Qwan.ui.makeBtn(this, ['center', 1220,150,60] , 'play video', {radis: 20})
 
         // play video

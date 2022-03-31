@@ -1,16 +1,11 @@
 {
 	"groups": [
 		{
-			"keys": "nico_jpg,kyo_json,kyo_png,music_click_wav,music_bg_mp3,music_wave_mp3",
+			"keys": "kyo_json,kyo_png,nico_jpg,bg_mp3,click_water_mp3,click_mp3,shining_mp3,wave_mp3",
 			"name": "preload"
 		}
 	],
 	"resources": [
-		{
-			"url": "assets/nico.jpg",
-			"type": "image",
-			"name": "nico_jpg"
-		},
 		{
 			"url": "mc/kyo.json",
 			"type": "json",
@@ -22,19 +17,39 @@
 			"name": "kyo_png"
 		},
 		{
-			"url": "sound/music_click.wav",
-			"type": "sound",
-			"name": "music_click_wav"
+			"url": "img/nico.jpg",
+			"type": "image",
+			"name": "nico_jpg"
 		},
 		{
-			"url": "sound/music_bg.mp3",
+			"url": "sound/bg.mp3",
 			"type": "sound",
-			"name": "music_bg_mp3"
+			"name": "bg_mp3"
 		},
 		{
-			"url": "sound/music_wave.mp3",
+			"url": "sound/click.mp3",
 			"type": "sound",
-			"name": "music_wave_mp3"
+			"name": "click_mp3"
+		},
+		{
+			"url": "sound/click_water.mp3",
+			"type": "sound",
+			"name": "click_water_mp3"
+		},
+		{
+			"url": "sound/shining.mp3",
+			"type": "sound",
+			"name": "shining_mp3"
+		},
+		{
+			"url": "sound/vdo.mp4",
+			"type": "bin",
+			"name": "vdo_mp4"
+		},
+		{
+			"url": "sound/wave.mp3",
+			"type": "sound",
+			"name": "wave_mp3"
 		}
 	]
 }
